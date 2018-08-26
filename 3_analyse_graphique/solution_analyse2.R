@@ -1,4 +1,4 @@
-library(tidyverse)
+library(dplyr)
 library(readr)
 
 #On importe et visualise le fichier csv issu des scraping
@@ -18,17 +18,19 @@ data_filtered =
 
 View(data_filtered)
 
-#calculer l'indice du dernier du groupe de tête d'élues'élus par liste(sur base du premier non elu)
-#calculer la différente cette valeur et la psoiton sur la liste des élus
+#calculer la position sur la liste du dernier du groupe de tête d'élus par liste(sur base du premier non elu)
+#calculer la différence entre cette valeur et la position sur la liste des élus
+#on pourrait affiner en calculant la place du "premier non élu non suivi d'un élu", mais KISS
 result = data_filtered %>% 
        group_by(liste) %>% 
-       mutate(last_elu = place_liste[which(is.na(position_elu))[1]] - 1, 
+       mutate(last_elu = place_liste[which(is.na(position_elu))[1]] - 1, # trouvé sur SO
               diff_avec_last=place_liste-last_elu) %>% 
        filter(elu=="oui") %>% 
+  #question : doit-on privilégier la différence entre la place-place_elu ou l'autre ?
        arrange(desc(place_positionelu), desc(diff_avec_last))
 
-#Ne garder que le top de chaque commune commune
-result_commune = 
+#Ne garder que le top de chaque commune
+top_commune = 
   result %>%  
   ungroup() %>% 
   group_by(commune) %>% 
