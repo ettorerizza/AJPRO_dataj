@@ -22,7 +22,8 @@ View(data_filtered)
 #calculer la position sur la liste du dernier du groupe de tête d'élus par liste(sur base du premier non elu)
 #calculer la différence entre cette valeur et la position sur la liste des élus
 #on pourrait affiner en calculant la place du "premier non élu non suivi d'un élu", mais KISS
-result = data_filtered %>% 
+result = 
+  data_filtered %>% 
        group_by(liste) %>% 
        mutate(last_elu = place_liste[which(is.na(position_elu))[1]] - 1, # trouvé sur SO
               diff_avec_last=place_liste-last_elu) %>% 
@@ -33,15 +34,18 @@ result = data_filtered %>%
 
 View(result)
 
-#Ne garder que le top de chaque commune ?
-top_commune = 
-  result %>%  
-  ungroup() %>% 
-  group_by(commune) %>% 
-  arrange(desc(place_positionelu)) %>% 
-  slice(c(1,n())) #pourquoi 560 résultats au lieu de 281 ? ex aequos ?
+#on sauvegarde les résultats
+write_csv(result, "resultats.csv")
 
-View(top_commune)
+#Ne garder que le top de chaque commune ?
+# top_commune = 
+#   result %>%  
+#   ungroup() %>% 
+#   group_by(commune) %>% 
+#   arrange(desc(place_positionelu)) %>% 
+#   slice(c(1,n())) #pourquoi 560 résultats au lieu de 281 ? ex aequos ?
+# 
+# View(top_commune)
 
 #un petit tableau par parti
 table_partis_province = 
