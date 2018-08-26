@@ -3,12 +3,12 @@ library(readr)
 
 #On importe et visualise le fichier csv issu des scraping
 data = 
-  read_csv("C:/Users/ettor/Desktop/AJPRO_dataj/3_analyse_graphique/scrapings_wallonie_bruxelles.csv")
+  read_csv("scrapings_wallonie_bruxelles.csv")
 
 View(data)
 
 #1 On crée une copie du dataframe data sans les trois derniers de chaque liste
-#Chercher une solution plus élégante que trois filter
+#(Chercher une solution plus élégante que trois filter)
 data_filtered = 
   data %>% 
   group_by(liste) %>% 
