@@ -1,5 +1,6 @@
 library(dplyr)
 library(readr)
+library(ggplot2)
 
 #On importe et visualise le fichier csv issu des scraping
 data = 
@@ -27,12 +28,37 @@ result = data_filtered %>%
               diff_avec_last=place_liste-last_elu) %>% 
        filter(elu=="oui") %>% 
   #question : doit-on privilégier la différence entre la place-place_elu ou l'autre ?
-       arrange(desc(place_positionelu), desc(diff_avec_last))
+       arrange(desc(place_positionelu), desc(diff_avec_last)) %>% 
+  filter(diff_avec_last > 20)
 
-#Ne garder que le top de chaque commune
+View(result)
+
+#Ne garder que le top de chaque commune ?
 top_commune = 
   result %>%  
   ungroup() %>% 
   group_by(commune) %>% 
   arrange(desc(place_positionelu)) %>% 
   slice(c(1,n())) #pourquoi 560 résultats au lieu de 281 ? ex aequos ?
+
+View(top_commune)
+
+#un petit tableau par parti
+table_partis_province = 
+  result %>%
+  group_by(parti_propre,province) %>%
+  summarise(nombre=n()) %>% 
+  arrange(desc(nombre)) %>% 
+  head(10)
+
+View(table_partis_province)
+
+#un petit graphique
+ggplot(table_partis_province, 
+       aes(x=reorder(parti_propre, -nombre), y = nombre, fill=province, label=nombre)) + 
+  geom_bar(stat="identity") +
+  theme_minimal()  +
+  labs(x = "Parti", y = "Nombre") +
+  geom_text(size = 3, position = position_stack(vjust = 0.5))
+
+
