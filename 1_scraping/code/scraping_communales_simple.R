@@ -1,12 +1,22 @@
-library(rvest)
-library(readr)
+library(rvest) #à installer d'abord si ce n'est fait
+library(readr) #à installer d'abord si ce n'est fait
+
+#ne faite pas attention à ces lignes de code
+#elles servent à définir automatiquement votre
+#répertoire de travail dans le bon dossier 
+#cela vous évitera de devoir chipoter
+set_wd <- function() {
+  library(rstudioapi) # à installer au besoin
+  current_path <- getActiveDocumentContext()$path 
+  setwd(dirname(current_path ))
+  print( getwd() )
+}
+set_wd()
 
 #On importe la liste de liens récupérés à l'aide de web scraper chrome
 
 liens_listes_wallonie_bruxelles <-
-  read_csv(
-    "C:/Users/ettor/Desktop/AJPRO_dataj/1_scraping/data/liens_listes_wallonie_bruxelles.csv"
-  )
+  read_csv("../data/liens_listes_wallonie_bruxelles.csv")
 
 #on jette un oeil sur le dataframe
 View(liens_listes_wallonie_bruxelles)
@@ -55,6 +65,9 @@ colnames(tables) = c(
 
 #on visualise le tableau (même chose que de cliquer sur son nom dans le volet)
 View(tables)
+
+#on élimine les mots "Commune de" et on efface les espaces et retour chariot en trop
+tables$commune = gsub("Commune de ", "", trimws(tables$commune))
 
 #On sauvegarde dans un fichier cv
 write_csv(tables, "scraping_wallonie_bruxelles.csv")

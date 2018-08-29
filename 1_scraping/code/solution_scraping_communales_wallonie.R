@@ -5,6 +5,18 @@ start_time <- Sys.time()
 library(rvest)
 library(tidyverse)
 
+#ne faite pas attention à ces lignes de code
+#elles servent à définir automatiquement votre
+#répertoire de travail dans le bon dossier 
+#ce qui vous évitera des chipotages
+set_wd <- function() {
+  library(rstudioapi) # à installer au besoin
+  current_path <- getActiveDocumentContext()$path 
+  setwd(dirname(current_path ))
+  print( getwd() )
+}
+set_wd()
+
 #Url de départ
 start_url = "http://electionslocales.wallonie.be/2012/fr/com/results/results_start.html"
 
@@ -14,8 +26,7 @@ url_communes =
   read_html() %>%
   html_nodes(".normal a") %>%
   html_attr("href") %>%
-  paste0("http://electionslocales.wallonie.be/2012/fr/com/results/",
-         .)
+  paste0("http://electionslocales.wallonie.be/2012/fr/com/results/", .)
 
 #On récupère les URLs des listes électorales de chaque commune
 listes = vector()

@@ -4,6 +4,18 @@ start_time <- Sys.time()
 library(rvest)
 library(tidyverse)
 
+#ne faite pas attention à ces lignes de code
+#elles servent à définir automatiquement votre
+#répertoire de travail dans le bon dossier 
+#ce qui vous évitera des chipotages
+set_wd <- function() {
+  library(rstudioapi) # à installer au besoin
+  current_path <- getActiveDocumentContext()$path 
+  setwd(dirname(current_path ))
+  print( getwd() )
+}
+set_wd()
+
 start_url = "http://bru2012.irisnet.be/fr/com/results/results_start.html"
 
 url_communes =
@@ -37,7 +49,7 @@ for (i in listes) {
                fill = TRUE,
                dec = ",")
   
-  #on cr�e trois colonnes avec le nom de la commune, le nom de la liste et l'URL de la page
+  #on cr?e trois colonnes avec le nom de la commune, le nom de la liste et l'URL de la page
   table$commune = html %>% html_node(".uppercaseb") %>% html_text()
   table$parti = html %>% html_node(".subtitle") %>% html_text()
   table$lien = i
@@ -45,6 +57,7 @@ for (i in listes) {
 }
 
 tables = tables %>% drop_na(X2) %>% select(X2:X10, commune:lien)
+
 
 colnames(tables) = c(
   "place_liste",
