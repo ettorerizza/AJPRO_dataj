@@ -116,7 +116,13 @@ tables_completes$liste = paste(tables_completes$commune, tables_completes$parti,
 Sys.time() - start_time
 
 
+##################################
+#
+#SAUVEGARDE DES RESULTATS
+#
+##################################
 
-#étape 8 : On sauvegarde les résultats dans un csv "Excel compatible"
+
+#étape 8 : On sauvegarde les résultats dans un csv "Excel compatible" (vous n'aurez pas de symboles bizarres à la place des lettres accentuées)
 write_excel_csv(tables_completes, "scraping_2018_test.csv")
 
