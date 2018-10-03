@@ -2,7 +2,7 @@
 start_time <- Sys.time()
 
 #CONSEIL : avant d'executer l'ensemble du code (raccourci : CTRL+a (pour tout sélectionner)
-#, puis CTRL+shift+enter),essayez d'abord d'executer chque étapes dans l'ordre 
+#, puis CTRL+shift+enter), essayez d'abord d'executer chaque étape dans l'ordre 
 #(selectionnez une partie du code, CTRL+shif+enter). Cela vous permettra de mieux 
 #comprendre son fonctionnement et d'identifier les éventuels bugs
 
@@ -94,7 +94,7 @@ for (urls_tables in listes) {
 }
 
 #########################################################################
-#étapes 7 : Les opérations qui suivent sont du nettoyage de données. Elle pourrait très bien 
+#étapes 7 : Les opérations qui suivent sont du nettoyage de données. Elles pourraient très bien 
 #être effectuée dans OpenRefine, voire dans Excel. Mais ceci vous fera gagner du temps.
 #########################################################################
 
