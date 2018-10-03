@@ -64,7 +64,6 @@ for (url in url_communes) {
     read_html() %>%
     html_nodes(".text-center a") %>%
     html_attr("href") %>%
-    gsub("../preferred/", "/preferred/", .) %>%
     paste0(base_url, .)
   
   listes = c(listes, urls_listes)
