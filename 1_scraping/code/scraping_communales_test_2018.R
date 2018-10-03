@@ -1,13 +1,27 @@
 # Start the clock! Pour mesurer (par curiosité) le temps que prendra l'execution de ce script
 start_time <- Sys.time()
 
-#On importe les trois packages nécessaires (en les installant si nécessaire)
-library(rvest) #le package de scraping
-library(tidyverse) #contient tout ce qu'il faut pour manipuler les données
-library(rstudioapi) #ne sert que pour la fonction setwd()
+#CONSEIL : avant d'executer l'ensemble du code (raccourci : CTRL+a (pour tout sélectionner)
+#, puis CTRL+shift+enter),essayez d'abord d'executer chque étapes dans l'ordre 
+#(selectionnez une partie du code, CTRL+shif+enter). Cela vous permettra de mieux 
+#comprendre son fonctionnement et d'identifier les éventuels bugs
 
-#ne faite pas attention aux six lignes de code suivantes.
-#elles servent juste à définir automatiquement votre
+#étape 1 : On importe les trois packages nécessaires
+#cette fonction installera automatiquement les packages au besoin
+usePackage <- function(p) 
+{
+  if (!is.element(p, installed.packages()[,1]))
+    install.packages(p, dep = TRUE)
+  require(p, character.only = TRUE)
+}
+
+usePackage("rvest") #le package de scraping
+usePackage("tidyverse") #contient tout ce qu'il faut pour manipuler les données
+usePackage("rstudioapi") #ne sert que pour la fonction setwd()
+
+
+#étape 2 : Les six lignes de code suivantes
+# servent juste à définir automatiquement votre
 #répertoire de travail dans le bon dossier, 
 #ce qui vous évitera des chipotages. 
 #Votre répértoire de travail (l'endroit où vous pourrez retrouver les résultats)
@@ -22,7 +36,7 @@ set_wd()
 
 #####################################################################
 
-#ATTENTION, ces deux URL devront être modifiées le 14 octobre !
+#étape 3 : ATTENTION, ces deux URL devront être modifiées le 14 octobre !
 
 #URL de la page contenant les liens vers chaque commune (page de départ)
 start_url = "https://rwa-ma5.martineproject.be/fr/election?el=CG"
@@ -32,7 +46,8 @@ base_url = "https://rwa-ma5.martineproject.be"
 
 #####################################################################
 
-#On récupère les urls des communes
+
+#étape 4 : On récupère les urls des communes
 url_communes =
   start_url %>%
   read_html() %>%
@@ -42,7 +57,7 @@ url_communes =
   html_attr("href") %>%
   paste0(base_url, .)
 
-#On récupère les URLs des listes électorales de chaque commune
+#étape 5 : On récupère les URLs des listes électorales de chaque commune
 listes = vector()
 for (url in url_communes) {
   urls_listes = url %>%
@@ -56,8 +71,8 @@ for (url in url_communes) {
   
 }
 
-#On récupère les tableaux de résultats qu'on stocke dans une seule liste
-tables = vector()
+#étape 6 : On récupère les tableaux de résultats qu'on stocke dans une seule liste
+tables_completes = vector()
 for (urls_tables in listes) {
   html = urls_tables %>%
     read_html()
@@ -73,32 +88,36 @@ for (urls_tables in listes) {
   table$commune = html %>% html_node(".article-dataheader__title") %>% html_text()
   table$parti = html %>% html_node(".w-100") %>% html_text()
   table$lien = urls_tables
-  tables = rbind(tables, table)
+  
+  #on fusionne chaque nouvelle table dans un tableau global
+  tables_completes = rbind(tables_completes, table)
 }
 
 #########################################################################
-#La partie qui suit est du nettoyage de données. Elle pourrait très bien 
+#étapes 7 : Les opérations qui suivent sont du nettoyage de données. Elle pourrait très bien 
 #être effectuée dans OpenRefine, voire dans Excel. Mais ceci vous fera gagner du temps.
 #########################################################################
 
 
 
 #On met les poucentages sous forme de nombres
-tables$pourcent_liste = as.numeric(gsub("^([0-9]+),?([0-9]+)?%", "\\1.\\2", tables$pourcent_liste))
+tables_completes$pourcent_liste = as.numeric(gsub("^([0-9]+),?([0-9]+)?%", "\\1.\\2", tables_completes$pourcent_liste))
 
 #on élimine les mots "Commune de" et on efface les éventuels espaces en trop
-tables$commune = gsub("Commune de ", "", trimws(tables$commune))
+tables_completes$commune = gsub("Commune de ", "", trimws(tables_completes$commune))
 
 #on enlève le numéro devant le nom de parti et on efface les éventuels espaces en trop
-tables$parti = gsub("^\\d+ ", "", trimws(tables$parti))
+tables_completes$parti = gsub("^\\d+ ", "", trimws(tables_completes$parti))
 
 #on crée une colonne "liste" en concaténant (collant) nom de commune et de parti
-tables$liste = paste(tables$commune, table$parti, sep="-")
+tables_completes$liste = paste(tables_completes$commune, tables_completes$parti, sep="-")
 
 # Stop the clock : affichera dans la console le temps d'execution du script 
 #(environ 15 minutes pour le site de test wallon, son serveur étant lent)
 Sys.time() - start_time
 
-#On sauvegarde les tables de résultats dans un csv "Excel compatible"
-write_excel_csv(tables, "scraping_2018.csv")
+
+
+#étape 8 : On sauvegarde les résultats dans un csv "Excel compatible"
+write_excel_csv(tables_completes, "scraping_2018_test.csv")
 
