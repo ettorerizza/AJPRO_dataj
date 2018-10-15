@@ -1,53 +1,18 @@
 # Start the clock! Pour mesurer (par curiosité) le temps que prendra l'execution de ce script
 start_time <- Sys.time()
 
-#CONSEIL : avant d'executer l'ensemble du code (raccourci : CTRL+a (pour tout sélectionner)
-#, puis CTRL+shift+enter), essayez d'abord d'executer chaque étape dans l'ordre 
-#(selectionnez une partie du code, CTRL+shif+enter). Cela vous permettra de mieux 
-#comprendre son fonctionnement et d'identifier les éventuels bugs
 
-#étape 1 : On importe les trois packages nécessaires
-#cette fonction installera automatiquement les packages au besoin
-usePackage <- function(p) 
-{
-  if (!is.element(p, installed.packages()[,1]))
-    install.packages(p, dep = TRUE)
-  require(p, character.only = TRUE)
-}
-
-usePackage("rvest") #le package de scraping
-usePackage("tidyverse") #contient tout ce qu'il faut pour manipuler les données
-usePackage("rstudioapi") #ne sert que pour la fonction setwd()
-
-
-#étape 2 : Les six lignes de code suivantes
-# servent juste à définir automatiquement votre
-#répertoire de travail dans le bon dossier, 
-#ce qui vous évitera des chipotages. 
-#Votre répértoire de travail (l'endroit où vous pourrez retrouver les résultats)
-#sera affiché dans votre concole, en bas.
-set_wd <- function() {
-  current_path <- getActiveDocumentContext()$path 
-  setwd(dirname(current_path ))
-  print( getwd() )
-}
-set_wd()
-
-
-#####################################################################
-
-#étape 3 : ATTENTION, ces deux URL devront être modifiées le 14 octobre !
+library("rvest") #le package de scraping
+library("tidyverse") #contient tout ce qu'il faut pour manipuler les données
 
 #URL de la page contenant les liens vers chaque commune (page de départ)
-start_url = "https://rwa-ma5.martineproject.be/fr/election?el=CG"
+start_url = "https://elections2018.wallonie.be/fr/election?el=CG"
 
-#Url de base du site (sera différente pour la Wallonie et Bruxelles)
-base_url = "https://rwa-ma5.martineproject.be"
-
-#####################################################################
+#Url de base du site 
+base_url = "https://elections2018.wallonie.be"
 
 
-#étape 4 : On récupère les urls des communes
+#étape 1 : On récupère les urls des communes
 url_communes =
   start_url %>%
   read_html() %>%
@@ -57,7 +22,7 @@ url_communes =
   html_attr("href") %>%
   paste0(base_url, .)
 
-#étape 5 : On récupère les URLs des listes électorales de chaque commune
+#étape 2 : On récupère les URLs des listes électorales de chaque commune
 listes = vector()
 for (url in url_communes) {
   urls_listes = url %>%
@@ -70,7 +35,7 @@ for (url in url_communes) {
   
 }
 
-#étape 6 : On récupère les tableaux de résultats qu'on stocke dans une seule liste
+#étape 3 : On récupère les tableaux de résultats qu'on stocke dans une seule liste
 tables_completes = vector()
 for (urls_tables in listes) {
   html = urls_tables %>%
@@ -93,7 +58,7 @@ for (urls_tables in listes) {
 }
 
 #########################################################################
-#étapes 7 : Les opérations qui suivent sont du nettoyage de données. Elles pourraient très bien 
+#étapes 4 : Les opérations qui suivent sont du nettoyage de données. Elles pourraient très bien 
 #être effectuée dans OpenRefine, voire dans Excel. Mais ceci vous fera gagner du temps.
 #########################################################################
 
@@ -112,7 +77,7 @@ tables_completes$parti = gsub("^\\d+ ", "", trimws(tables_completes$parti))
 tables_completes$liste = paste(tables_completes$commune, tables_completes$parti, sep="-")
 
 # Stop the clock : affichera dans la console le temps d'execution du script 
-#(environ 15 minutes pour le site de test wallon, son serveur étant lent)
+#(environ 15 minutes pour le site de la Wallonie)
 Sys.time() - start_time
 
 
@@ -123,6 +88,6 @@ Sys.time() - start_time
 ##################################
 
 
-#étape 8 : On sauvegarde les résultats dans un csv "Excel compatible" (vous n'aurez pas de symboles bizarres à la place des lettres accentuées)
-write_excel_csv(tables_completes, "scraping_2018_test.csv")
+#étape 5 : On sauvegarde les résultats dans un csv "Excel compatible" (vous n'aurez pas de symboles bizarres à la place des lettres accentuées)
+write_excel_csv(tables_completes, "scraping_2018_wallonie.csv")
 
