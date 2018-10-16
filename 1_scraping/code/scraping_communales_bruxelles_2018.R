@@ -59,10 +59,10 @@ for(urls_tables in listes){
     html_text() %>% 
     trimws()
   
-  table = as.tibble(cbind(candidats, voix, elu))
+  table = as_tibble(cbind(candidats, voix, elu))
   
   #on crée trois nouvelles colonnes pour stocker le nom de la commune, le nom de la liste et l'URL de la page
-  table$commune = html %>% html_node(".col-xs-8 a") %>% html_text()
+  table$commune = html %>% html_node(".subtitle .inline-block") %>% html_text()
   table$parti = html %>% html_node(".subtitle+ .title-print-info button") %>% html_text()
   table$lien = urls_tables
   
@@ -81,7 +81,7 @@ Sys.time() - start_time
 #vérifier s'il y a bien 4104 candidats à BXL
 #########################################################################
 
-#étape 5 : On sauvegarde les résultats dans un csv "Excel compatible" (vous n'aurez pas de symboles bizarres à la place des lettres accentuées)
+#étape 4 : On sauvegarde les résultats dans un csv "Excel compatible" (vous n'aurez pas de symboles bizarres à la place des lettres accentuées)
 write_excel_csv(tables_completes, "scraping_2018_bruxelles.csv")
 
 
