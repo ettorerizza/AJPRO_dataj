@@ -78,7 +78,7 @@ Sys.time() - start_time
 #########################################################################
 #Pas le temps de nettoyer les résultats automatiquement
 #à faire dans OpenRefine
-#vérifier s'il y a bien 4107 candidats à BXL
+#vérifier s'il y a bien 4104 candidats à BXL
 #########################################################################
 
 #étape 5 : On sauvegarde les résultats dans un csv "Excel compatible" (vous n'aurez pas de symboles bizarres à la place des lettres accentuées)
