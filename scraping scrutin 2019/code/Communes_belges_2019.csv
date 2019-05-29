@@ -1,0 +1,582 @@
+INS,Entités administratives,Langue,Administratieve eenheden,Province,Region
+21001,Anderlecht,FN,Anderlecht,BXL,RÉGION DE BRUXELLES-CAPITALE
+21002,Auderghem,FN,Oudergem,BXL,RÉGION DE BRUXELLES-CAPITALE
+21003,Berchem-Sainte-Agathe,FN,Sint-Agatha-Berchem,BXL,RÉGION DE BRUXELLES-CAPITALE
+21004,Bruxelles,FN,Brussel,BXL,RÉGION DE BRUXELLES-CAPITALE
+21005,Etterbeek,FN,Etterbeek,BXL,RÉGION DE BRUXELLES-CAPITALE
+21006,Evere,FN,Evere,BXL,RÉGION DE BRUXELLES-CAPITALE
+21007,Forest,FN,Vorst,BXL,RÉGION DE BRUXELLES-CAPITALE
+21008,Ganshoren,FN,Ganshoren,BXL,RÉGION DE BRUXELLES-CAPITALE
+21009,Ixelles,FN,Elsene,BXL,RÉGION DE BRUXELLES-CAPITALE
+21010,Jette,FN,Jette,BXL,RÉGION DE BRUXELLES-CAPITALE
+21011,Koekelberg,FN,Koekelberg,BXL,RÉGION DE BRUXELLES-CAPITALE
+21012,Molenbeek-Saint-Jean,FN,Sint-Jans-Molenbeek,BXL,RÉGION DE BRUXELLES-CAPITALE
+21013,Saint-Gilles,FN,Sint-Gillis,BXL,RÉGION DE BRUXELLES-CAPITALE
+21014,Saint-Josse-ten-Noode,FN,Sint-Joost-ten-Node,BXL,RÉGION DE BRUXELLES-CAPITALE
+21015,Schaerbeek,FN,Schaarbeek,BXL,RÉGION DE BRUXELLES-CAPITALE
+21016,Uccle,FN,Ukkel,BXL,RÉGION DE BRUXELLES-CAPITALE
+21017,Watermael-Boitsfort,FN,Watermaal-Bosvoorde,BXL,RÉGION DE BRUXELLES-CAPITALE
+21018,Woluwe-Saint-Lambert,FN,Sint-Lambrechts-Woluwe,BXL,RÉGION DE BRUXELLES-CAPITALE
+21019,Woluwe-Saint-Pierre,FN,Sint-Pieters-Woluwe,BXL,RÉGION DE BRUXELLES-CAPITALE
+11001,Aartselaar,N,Aartselaar,Province d'Anvers,RÉGION FLAMANDE
+11002,Anvers,N,Antwerpen,Province d'Anvers,RÉGION FLAMANDE
+11004,Boechout,N,Boechout,Province d'Anvers,RÉGION FLAMANDE
+11005,Boom,N,Boom,Province d'Anvers,RÉGION FLAMANDE
+11007,Borsbeek,N,Borsbeek,Province d'Anvers,RÉGION FLAMANDE
+11008,Brasschaat,N,Brasschaat,Province d'Anvers,RÉGION FLAMANDE
+11009,Brecht,N,Brecht,Province d'Anvers,RÉGION FLAMANDE
+11013,Edegem,N,Edegem,Province d'Anvers,RÉGION FLAMANDE
+11016,Essen,N,Essen,Province d'Anvers,RÉGION FLAMANDE
+11018,Hemiksem,N,Hemiksem,Province d'Anvers,RÉGION FLAMANDE
+11021,Hove,N,Hove,Province d'Anvers,RÉGION FLAMANDE
+11022,Kalmthout,N,Kalmthout,Province d'Anvers,RÉGION FLAMANDE
+11023,Kapellen,N,Kapellen,Province d'Anvers,RÉGION FLAMANDE
+11024,Kontich,N,Kontich,Province d'Anvers,RÉGION FLAMANDE
+11025,Lint,N,Lint,Province d'Anvers,RÉGION FLAMANDE
+11057,Malle,N,Malle,Province d'Anvers,RÉGION FLAMANDE
+11029,Mortsel,N,Mortsel,Province d'Anvers,RÉGION FLAMANDE
+11030,Niel,N,Niel,Province d'Anvers,RÉGION FLAMANDE
+11035,Ranst,N,Ranst,Province d'Anvers,RÉGION FLAMANDE
+11037,Rumst,N,Rumst,Province d'Anvers,RÉGION FLAMANDE
+11038,Schelle,N,Schelle,Province d'Anvers,RÉGION FLAMANDE
+11039,Schilde,N,Schilde,Province d'Anvers,RÉGION FLAMANDE
+11040,Schoten,N,Schoten,Province d'Anvers,RÉGION FLAMANDE
+11044,Stabroek,N,Stabroek,Province d'Anvers,RÉGION FLAMANDE
+11050,Wijnegem,N,Wijnegem,Province d'Anvers,RÉGION FLAMANDE
+11052,Wommelgem,N,Wommelgem,Province d'Anvers,RÉGION FLAMANDE
+11053,Wuustwezel,N,Wuustwezel,Province d'Anvers,RÉGION FLAMANDE
+11054,Zandhoven,N,Zandhoven,Province d'Anvers,RÉGION FLAMANDE
+11055,Zoersel,N,Zoersel,Province d'Anvers,RÉGION FLAMANDE
+11056,Zwijndrecht,N,Zwijndrecht,Province d'Anvers,RÉGION FLAMANDE
+12002,Berlaar,N,Berlaar,Province d'Anvers,RÉGION FLAMANDE
+12005,Bonheiden,N,Bonheiden,Province d'Anvers,RÉGION FLAMANDE
+12007,Bornem,N,Bornem,Province d'Anvers,RÉGION FLAMANDE
+12009,Duffel,N,Duffel,Province d'Anvers,RÉGION FLAMANDE
+12014,Heist-op-den-Berg,N,Heist-op-den-Berg,Province d'Anvers,RÉGION FLAMANDE
+12021,Lierre,N,Lier,Province d'Anvers,RÉGION FLAMANDE
+12025,Malines,N,Mechelen,Province d'Anvers,RÉGION FLAMANDE
+12026,Nijlen,N,Nijlen,Province d'Anvers,RÉGION FLAMANDE
+12029,Putte,N,Putte,Province d'Anvers,RÉGION FLAMANDE
+12041,Puurs-Sint-Amands,N,Puurs-Sint-Amands,Province d'Anvers,RÉGION FLAMANDE
+12035,Sint-Katelijne-Waver,N,Sint-Katelijne-Waver,Province d'Anvers,RÉGION FLAMANDE
+12040,Willebroek,N,Willebroek,Province d'Anvers,RÉGION FLAMANDE
+13001,Arendonk,N,Arendonk,Province d'Anvers,RÉGION FLAMANDE
+13002,Baerle-Duc,N,Baarle-Hertog,Province d'Anvers,RÉGION FLAMANDE
+13003,Balen,N,Balen,Province d'Anvers,RÉGION FLAMANDE
+13004,Beerse,N,Beerse,Province d'Anvers,RÉGION FLAMANDE
+13006,Dessel,N,Dessel,Province d'Anvers,RÉGION FLAMANDE
+13008,Geel,N,Geel,Province d'Anvers,RÉGION FLAMANDE
+13010,Grobbendonk,N,Grobbendonk,Province d'Anvers,RÉGION FLAMANDE
+13011,Herentals,N,Herentals,Province d'Anvers,RÉGION FLAMANDE
+13012,Herenthout,N,Herenthout,Province d'Anvers,RÉGION FLAMANDE
+13013,Herselt,N,Herselt,Province d'Anvers,RÉGION FLAMANDE
+13014,Hoogstraten,N,Hoogstraten,Province d'Anvers,RÉGION FLAMANDE
+13016,Hulshout,N,Hulshout,Province d'Anvers,RÉGION FLAMANDE
+13017,Kasterlee,N,Kasterlee,Province d'Anvers,RÉGION FLAMANDE
+13053,Laakdal,N,Laakdal,Province d'Anvers,RÉGION FLAMANDE
+13019,Lille,N,Lille,Province d'Anvers,RÉGION FLAMANDE
+13021,Meerhout,N,Meerhout,Province d'Anvers,RÉGION FLAMANDE
+13023,Merksplas,N,Merksplas,Province d'Anvers,RÉGION FLAMANDE
+13025,Mol,N,Mol,Province d'Anvers,RÉGION FLAMANDE
+13029,Olen,N,Olen,Province d'Anvers,RÉGION FLAMANDE
+13031,Oud-Turnhout,N,Oud-Turnhout,Province d'Anvers,RÉGION FLAMANDE
+13035,Ravels,N,Ravels,Province d'Anvers,RÉGION FLAMANDE
+13036,Retie,N,Retie,Province d'Anvers,RÉGION FLAMANDE
+13037,Rijkevorsel,N,Rijkevorsel,Province d'Anvers,RÉGION FLAMANDE
+13040,Turnhout,N,Turnhout,Province d'Anvers,RÉGION FLAMANDE
+13044,Vorselaar,N,Vorselaar,Province d'Anvers,RÉGION FLAMANDE
+13046,Vosselaar,N,Vosselaar,Province d'Anvers,RÉGION FLAMANDE
+13049,Westerlo,N,Westerlo,Province d'Anvers,RÉGION FLAMANDE
+23105,Affligem,N,Affligem,Province du Brabant Flamand,RÉGION FLAMANDE
+23002,Asse,N,Asse,Province du Brabant Flamand,RÉGION FLAMANDE
+23003,Beersel,N,Beersel,Province du Brabant Flamand,RÉGION FLAMANDE
+23009,Biévène,N,Bever,Province du Brabant Flamand,RÉGION FLAMANDE
+23016,Dilbeek,N,Dilbeek,Province du Brabant Flamand,RÉGION FLAMANDE
+23098,Drogenbos,N,Drogenbos,Province du Brabant Flamand,RÉGION FLAMANDE
+23023,Gammerages,N,Galmaarden,Province du Brabant Flamand,RÉGION FLAMANDE
+23024,Gooik,N,Gooik,Province du Brabant Flamand,RÉGION FLAMANDE
+23025,Grimbergen,N,Grimbergen,Province du Brabant Flamand,RÉGION FLAMANDE
+23027,Hal,N,Halle,Province du Brabant Flamand,RÉGION FLAMANDE
+23032,Herne,N,Herne,Province du Brabant Flamand,RÉGION FLAMANDE
+23033,Hoeilaart,N,Hoeilaart,Province du Brabant Flamand,RÉGION FLAMANDE
+23038,Kampenhout,N,Kampenhout,Province du Brabant Flamand,RÉGION FLAMANDE
+23039,Kapelle-op-den-Bos,N,Kapelle-op-den-Bos,Province du Brabant Flamand,RÉGION FLAMANDE
+23099,Kraainem,N,Kraainem,Province du Brabant Flamand,RÉGION FLAMANDE
+23104,Lennik,N,Lennik,Province du Brabant Flamand,RÉGION FLAMANDE
+23044,Liedekerke,N,Liedekerke,Province du Brabant Flamand,RÉGION FLAMANDE
+23100,Linkebeek,N,Linkebeek,Province du Brabant Flamand,RÉGION FLAMANDE
+23045,Londerzeel,N,Londerzeel,Province du Brabant Flamand,RÉGION FLAMANDE
+23047,Machelen,N,Machelen,Province du Brabant Flamand,RÉGION FLAMANDE
+23050,Meise,N,Meise,Province du Brabant Flamand,RÉGION FLAMANDE
+23052,Merchtem,N,Merchtem,Province du Brabant Flamand,RÉGION FLAMANDE
+23060,Opwijk,N,Opwijk,Province du Brabant Flamand,RÉGION FLAMANDE
+23062,Overijse,N,Overijse,Province du Brabant Flamand,RÉGION FLAMANDE
+23064,Pepingen,N,Pepingen,Province du Brabant Flamand,RÉGION FLAMANDE
+23101,Rhode-Saint-Genèse,N,Sint-Genesius-Rode,Province du Brabant Flamand,RÉGION FLAMANDE
+23097,Roosdaal,N,Roosdaal,Province du Brabant Flamand,RÉGION FLAMANDE
+23077,Sint-Pieters-Leeuw,N,Sint-Pieters-Leeuw,Province du Brabant Flamand,RÉGION FLAMANDE
+23081,Steenokkerzeel,N,Steenokkerzeel,Province du Brabant Flamand,RÉGION FLAMANDE
+23086,Ternat,N,Ternat,Province du Brabant Flamand,RÉGION FLAMANDE
+23088,Vilvorde,N,Vilvoorde,Province du Brabant Flamand,RÉGION FLAMANDE
+23102,Wemmel,N,Wemmel,Province du Brabant Flamand,RÉGION FLAMANDE
+23103,Wezembeek-Oppem,N,Wezembeek-Oppem,Province du Brabant Flamand,RÉGION FLAMANDE
+23094,Zaventem,N,Zaventem,Province du Brabant Flamand,RÉGION FLAMANDE
+23096,Zemst,N,Zemst,Province du Brabant Flamand,RÉGION FLAMANDE
+24001,Aarschot,N,Aarschot,Province du Brabant Flamand,RÉGION FLAMANDE
+24007,Begijnendijk,N,Begijnendijk,Province du Brabant Flamand,RÉGION FLAMANDE
+24008,Bekkevoort,N,Bekkevoort,Province du Brabant Flamand,RÉGION FLAMANDE
+24009,Bertem,N,Bertem,Province du Brabant Flamand,RÉGION FLAMANDE
+24011,Bierbeek,N,Bierbeek,Province du Brabant Flamand,RÉGION FLAMANDE
+24014,Boortmeerbeek,N,Boortmeerbeek,Province du Brabant Flamand,RÉGION FLAMANDE
+24016,Boutersem,N,Boutersem,Province du Brabant Flamand,RÉGION FLAMANDE
+24020,Diest,N,Diest,Province du Brabant Flamand,RÉGION FLAMANDE
+24028,Geetbets,N,Geetbets,Province du Brabant Flamand,RÉGION FLAMANDE
+24137,Glabbeek,N,Glabbeek,Province du Brabant Flamand,RÉGION FLAMANDE
+24033,Haacht,N,Haacht,Province du Brabant Flamand,RÉGION FLAMANDE
+24038,Herent,N,Herent,Province du Brabant Flamand,RÉGION FLAMANDE
+24041,Hoegaarden,N,Hoegaarden,Province du Brabant Flamand,RÉGION FLAMANDE
+24043,Holsbeek,N,Holsbeek,Province du Brabant Flamand,RÉGION FLAMANDE
+24045,Huldenberg,N,Huldenberg,Province du Brabant Flamand,RÉGION FLAMANDE
+24048,Keerbergen,N,Keerbergen,Province du Brabant Flamand,RÉGION FLAMANDE
+24054,Kortenaken,N,Kortenaken,Province du Brabant Flamand,RÉGION FLAMANDE
+24055,Kortenberg,N,Kortenberg,Province du Brabant Flamand,RÉGION FLAMANDE
+24059,Landen,N,Landen,Province du Brabant Flamand,RÉGION FLAMANDE
+24130,Léau,N,Zoutleeuw,Province du Brabant Flamand,RÉGION FLAMANDE
+24133,Linter,N,Linter,Province du Brabant Flamand,RÉGION FLAMANDE
+24062,Louvain,N,Leuven,Province du Brabant Flamand,RÉGION FLAMANDE
+24066,Lubbeek,N,Lubbeek,Province du Brabant Flamand,RÉGION FLAMANDE
+24134,Montaigu-Zichem,N,Scherpenheuvel-Zichem,Province du Brabant Flamand,RÉGION FLAMANDE
+24086,Oud-Heverlee,N,Oud-Heverlee,Province du Brabant Flamand,RÉGION FLAMANDE
+24094,Rotselaar,N,Rotselaar,Province du Brabant Flamand,RÉGION FLAMANDE
+24104,Tervuren,N,Tervuren,Province du Brabant Flamand,RÉGION FLAMANDE
+24135,Tielt-Winge,N,Tielt-Winge,Province du Brabant Flamand,RÉGION FLAMANDE
+24107,Tirlemont,N,Tienen,Province du Brabant Flamand,RÉGION FLAMANDE
+24109,Tremelo,N,Tremelo,Province du Brabant Flamand,RÉGION FLAMANDE
+31003,Beernem,N,Beernem,Province de Flandre Occidentale,RÉGION FLAMANDE
+31004,Blankenberge,N,Blankenberge,Province de Flandre Occidentale,RÉGION FLAMANDE
+31005,Bruges,N,Brugge,Province de Flandre Occidentale,RÉGION FLAMANDE
+31006,Damme,N,Damme,Province de Flandre Occidentale,RÉGION FLAMANDE
+31012,Jabbeke,N,Jabbeke,Province de Flandre Occidentale,RÉGION FLAMANDE
+31043,Knokke-Heist,N,Knokke-Heist,Province de Flandre Occidentale,RÉGION FLAMANDE
+31022,Oostkamp,N,Oostkamp,Province de Flandre Occidentale,RÉGION FLAMANDE
+31033,Torhout,N,Torhout,Province de Flandre Occidentale,RÉGION FLAMANDE
+31040,Zedelgem,N,Zedelgem,Province de Flandre Occidentale,RÉGION FLAMANDE
+31042,Zuienkerke,N,Zuienkerke,Province de Flandre Occidentale,RÉGION FLAMANDE
+34002,Anzegem,N,Anzegem,Province de Flandre Occidentale,RÉGION FLAMANDE
+34003,Avelgem,N,Avelgem,Province de Flandre Occidentale,RÉGION FLAMANDE
+34022,Courtrai,N,Kortrijk,Province de Flandre Occidentale,RÉGION FLAMANDE
+34009,Deerlijk,N,Deerlijk,Province de Flandre Occidentale,RÉGION FLAMANDE
+34043,Espierres-Helchin,N,Spiere-Helkijn,Province de Flandre Occidentale,RÉGION FLAMANDE
+34013,Harelbeke,N,Harelbeke,Province de Flandre Occidentale,RÉGION FLAMANDE
+34023,Kuurne,N,Kuurne,Province de Flandre Occidentale,RÉGION FLAMANDE
+34025,Lendelede,N,Lendelede,Province de Flandre Occidentale,RÉGION FLAMANDE
+34027,Menin,N,Menen,Province de Flandre Occidentale,RÉGION FLAMANDE
+34040,Waregem,N,Waregem,Province de Flandre Occidentale,RÉGION FLAMANDE
+34041,Wevelgem,N,Wevelgem,Province de Flandre Occidentale,RÉGION FLAMANDE
+34042,Zwevegem,N,Zwevegem,Province de Flandre Occidentale,RÉGION FLAMANDE
+32003,Dixmude,N,Diksmuide,Province de Flandre Occidentale,RÉGION FLAMANDE
+32006,Houthulst,N,Houthulst,Province de Flandre Occidentale,RÉGION FLAMANDE
+32010,Koekelare,N,Koekelare,Province de Flandre Occidentale,RÉGION FLAMANDE
+32011,Kortemark,N,Kortemark,Province de Flandre Occidentale,RÉGION FLAMANDE
+32030,Lo-Reninge,N,Lo-Reninge,Province de Flandre Occidentale,RÉGION FLAMANDE
+38002,Alveringem,N,Alveringem,Province de Flandre Occidentale,RÉGION FLAMANDE
+38025,Furnes,N,Veurne,Province de Flandre Occidentale,RÉGION FLAMANDE
+38014,Koksijde,N,Koksijde,Province de Flandre Occidentale,RÉGION FLAMANDE
+38008,La Panne,N,De Panne,Province de Flandre Occidentale,RÉGION FLAMANDE
+38016,Nieuport,N,Nieuwpoort,Province de Flandre Occidentale,RÉGION FLAMANDE
+35002,Bredene,N,Bredene,Province de Flandre Occidentale,RÉGION FLAMANDE
+35029,De Haan,N,De Haan,Province de Flandre Occidentale,RÉGION FLAMANDE
+35005,Gistel,N,Gistel,Province de Flandre Occidentale,RÉGION FLAMANDE
+35006,Ichtegem,N,Ichtegem,Province de Flandre Occidentale,RÉGION FLAMANDE
+35011,Middelkerke,N,Middelkerke,Province de Flandre Occidentale,RÉGION FLAMANDE
+35013,Ostende,N,Oostende,Province de Flandre Occidentale,RÉGION FLAMANDE
+35014,Oudenburg,N,Oudenburg,Province de Flandre Occidentale,RÉGION FLAMANDE
+36006,Hooglede,N,Hooglede,Province de Flandre Occidentale,RÉGION FLAMANDE
+36007,Ingelmunster,N,Ingelmunster,Province de Flandre Occidentale,RÉGION FLAMANDE
+36008,Izegem,N,Izegem,Province de Flandre Occidentale,RÉGION FLAMANDE
+36010,Ledegem,N,Ledegem,Province de Flandre Occidentale,RÉGION FLAMANDE
+36011,Lichtervelde,N,Lichtervelde,Province de Flandre Occidentale,RÉGION FLAMANDE
+36012,Moorslede,N,Moorslede,Province de Flandre Occidentale,RÉGION FLAMANDE
+36015,Roulers,N,Roeselare,Province de Flandre Occidentale,RÉGION FLAMANDE
+36019,Staden,N,Staden,Province de Flandre Occidentale,RÉGION FLAMANDE
+37020,Ardooie,N,Ardooie,Province de Flandre Occidentale,RÉGION FLAMANDE
+37002,Dentergem,N,Dentergem,Province de Flandre Occidentale,RÉGION FLAMANDE
+37007,Meulebeke,N,Meulebeke,Province de Flandre Occidentale,RÉGION FLAMANDE
+37010,Oostrozebeke,N,Oostrozebeke,Province de Flandre Occidentale,RÉGION FLAMANDE
+37011,Pittem,N,Pittem,Province de Flandre Occidentale,RÉGION FLAMANDE
+37012,Ruiselede,N,Ruiselede,Province de Flandre Occidentale,RÉGION FLAMANDE
+37015,Tielt,N,Tielt,Province de Flandre Occidentale,RÉGION FLAMANDE
+37017,Wielsbeke,N,Wielsbeke,Province de Flandre Occidentale,RÉGION FLAMANDE
+37018,Wingene,N,Wingene,Province de Flandre Occidentale,RÉGION FLAMANDE
+33039,Heuvelland,N,Heuvelland,Province de Flandre Occidentale,RÉGION FLAMANDE
+33040,Langemark-Poelkapelle,N,Langemark-Poelkapelle,Province de Flandre Occidentale,RÉGION FLAMANDE
+33016,Messines,N,Mesen,Province de Flandre Occidentale,RÉGION FLAMANDE
+33021,Poperinge,N,Poperinge,Province de Flandre Occidentale,RÉGION FLAMANDE
+33041,Vleteren,N,Vleteren,Province de Flandre Occidentale,RÉGION FLAMANDE
+33029,Wervik,N,Wervik,Province de Flandre Occidentale,RÉGION FLAMANDE
+33011,Ypres,N,Ieper,Province de Flandre Occidentale,RÉGION FLAMANDE
+33037,Zonnebeke,N,Zonnebeke,Province de Flandre Occidentale,RÉGION FLAMANDE
+41002,Alost,N,Aalst,Province de Flandre Orientale,RÉGION FLAMANDE
+41011,Denderleeuw,N,Denderleeuw,Province de Flandre Orientale,RÉGION FLAMANDE
+41082,Erpe-Mere,N,Erpe-Mere,Province de Flandre Orientale,RÉGION FLAMANDE
+41018,Grammont,N,Geraardsbergen,Province de Flandre Orientale,RÉGION FLAMANDE
+41024,Haaltert,N,Haaltert,Province de Flandre Orientale,RÉGION FLAMANDE
+41027,Herzele,N,Herzele,Province de Flandre Orientale,RÉGION FLAMANDE
+41034,Lede,N,Lede,Province de Flandre Orientale,RÉGION FLAMANDE
+41048,Ninove,N,Ninove,Province de Flandre Orientale,RÉGION FLAMANDE
+41063,Sint-Lievens-Houtem,N,Sint-Lievens-Houtem,Province de Flandre Orientale,RÉGION FLAMANDE
+41081,Zottegem,N,Zottegem,Province de Flandre Orientale,RÉGION FLAMANDE
+45035,Audenarde,N,Oudenaarde,Province de Flandre Orientale,RÉGION FLAMANDE
+45059,Brakel,N,Brakel,Province de Flandre Orientale,RÉGION FLAMANDE
+45062,Horebeke,N,Horebeke,Province de Flandre Orientale,RÉGION FLAMANDE
+45060,Kluisbergen,N,Kluisbergen,Province de Flandre Orientale,RÉGION FLAMANDE
+45068,Kruisem,N,Kruisem,Province de Flandre Orientale,RÉGION FLAMANDE
+45063,Lierde,N,Lierde,Province de Flandre Orientale,RÉGION FLAMANDE
+45064,Maarkedal,N,Maarkedal,Province de Flandre Orientale,RÉGION FLAMANDE
+45041,Renaix,N,Ronse,Province de Flandre Orientale,RÉGION FLAMANDE
+45061,Wortegem-Petegem,N,Wortegem-Petegem,Province de Flandre Orientale,RÉGION FLAMANDE
+45065,Zwalm,N,Zwalm,Province de Flandre Orientale,RÉGION FLAMANDE
+43002,Assenede,N,Assenede,Province de Flandre Orientale,RÉGION FLAMANDE
+43005,Eeklo,N,Eeklo,Province de Flandre Orientale,RÉGION FLAMANDE
+43007,Kaprijke,N,Kaprijke,Province de Flandre Orientale,RÉGION FLAMANDE
+43010,Maldegem,N,Maldegem,Province de Flandre Orientale,RÉGION FLAMANDE
+43014,Sint-Laureins,N,Sint-Laureins,Province de Flandre Orientale,RÉGION FLAMANDE
+43018,Zelzate,N,Zelzate,Province de Flandre Orientale,RÉGION FLAMANDE
+44084,Aalter,N,Aalter,Province de Flandre Orientale,RÉGION FLAMANDE
+44012,De Pinte,N,De Pinte,Province de Flandre Orientale,RÉGION FLAMANDE
+44083,Deinze,N,Deinze,Province de Flandre Orientale,RÉGION FLAMANDE
+44013,Destelbergen,N,Destelbergen,Province de Flandre Orientale,RÉGION FLAMANDE
+44019,Evergem,N,Evergem,Province de Flandre Orientale,RÉGION FLAMANDE
+44021,Gand,N,Gent,Province de Flandre Orientale,RÉGION FLAMANDE
+44020,Gavere,N,Gavere,Province de Flandre Orientale,RÉGION FLAMANDE
+44085,Lievegem,N,Lievegem,Province de Flandre Orientale,RÉGION FLAMANDE
+44034,Lochristi,N,Lochristi,Province de Flandre Orientale,RÉGION FLAMANDE
+44040,Melle,N,Melle,Province de Flandre Orientale,RÉGION FLAMANDE
+44043,Merelbeke,N,Merelbeke,Province de Flandre Orientale,RÉGION FLAMANDE
+44045,Moerbeke,N,Moerbeke,Province de Flandre Orientale,RÉGION FLAMANDE
+44048,Nazareth,N,Nazareth,Province de Flandre Orientale,RÉGION FLAMANDE
+44052,Oosterzele,N,Oosterzele,Province de Flandre Orientale,RÉGION FLAMANDE
+44064,Sint-Martens-Latem,N,Sint-Martens-Latem,Province de Flandre Orientale,RÉGION FLAMANDE
+44073,Wachtebeke,N,Wachtebeke,Province de Flandre Orientale,RÉGION FLAMANDE
+44081,Zulte,N,Zulte,Province de Flandre Orientale,RÉGION FLAMANDE
+46003,Beveren,N,Beveren,Province de Flandre Orientale,RÉGION FLAMANDE
+46013,Kruibeke,N,Kruibeke,Province de Flandre Orientale,RÉGION FLAMANDE
+46014,Lokeren,N,Lokeren,Province de Flandre Orientale,RÉGION FLAMANDE
+46021,Saint-Nicolas,N,Sint-Niklaas,Province de Flandre Orientale,RÉGION FLAMANDE
+46020,Sint-Gillis-Waas,N,Sint-Gillis-Waas,Province de Flandre Orientale,RÉGION FLAMANDE
+46024,Stekene,N,Stekene,Province de Flandre Orientale,RÉGION FLAMANDE
+46025,Tamise,N,Temse,Province de Flandre Orientale,RÉGION FLAMANDE
+42003,Berlare,N,Berlare,Province de Flandre Orientale,RÉGION FLAMANDE
+42004,Buggenhout,N,Buggenhout,Province de Flandre Orientale,RÉGION FLAMANDE
+42008,Hamme,N,Hamme,Province de Flandre Orientale,RÉGION FLAMANDE
+42010,Laarne,N,Laarne,Province de Flandre Orientale,RÉGION FLAMANDE
+42011,Lebbeke,N,Lebbeke,Province de Flandre Orientale,RÉGION FLAMANDE
+42006,Termonde,N,Dendermonde,Province de Flandre Orientale,RÉGION FLAMANDE
+42023,Waasmunster,N,Waasmunster,Province de Flandre Orientale,RÉGION FLAMANDE
+42025,Wetteren,N,Wetteren,Province de Flandre Orientale,RÉGION FLAMANDE
+42026,Wichelen,N,Wichelen,Province de Flandre Orientale,RÉGION FLAMANDE
+42028,Zele,N,Zele,Province de Flandre Orientale,RÉGION FLAMANDE
+71002,As,N,As,Province du Limbourg,RÉGION FLAMANDE
+71004,Beringen,N,Beringen,Province du Limbourg,RÉGION FLAMANDE
+71034,Bourg-Léopold,N,Leopoldsburg,Province du Limbourg,RÉGION FLAMANDE
+71011,Diepenbeek,N,Diepenbeek,Province du Limbourg,RÉGION FLAMANDE
+71016,Genk,N,Genk,Province du Limbourg,RÉGION FLAMANDE
+71017,Gingelom,N,Gingelom,Province du Limbourg,RÉGION FLAMANDE
+71020,Halen,N,Halen,Province du Limbourg,RÉGION FLAMANDE
+71069,Ham,N,Ham,Province du Limbourg,RÉGION FLAMANDE
+71022,Hasselt,N,Hasselt,Province du Limbourg,RÉGION FLAMANDE
+71024,Herck-la-Ville,N,Herk-de-Stad,Province du Limbourg,RÉGION FLAMANDE
+71070,Heusden-Zolder,N,Heusden-Zolder,Province du Limbourg,RÉGION FLAMANDE
+71037,Lummen,N,Lummen,Province du Limbourg,RÉGION FLAMANDE
+71045,Nieuwerkerken,N,Nieuwerkerken,Province du Limbourg,RÉGION FLAMANDE
+71053,Saint-Trond,N,Sint-Truiden,Province du Limbourg,RÉGION FLAMANDE
+71057,Tessenderlo,N,Tessenderlo,Province du Limbourg,RÉGION FLAMANDE
+71066,Zonhoven,N,Zonhoven,Province du Limbourg,RÉGION FLAMANDE
+71067,Zutendaal,N,Zutendaal,Province du Limbourg,RÉGION FLAMANDE
+72003,Bocholt,N,Bocholt,Province du Limbourg,RÉGION FLAMANDE
+72004,Bree,N,Bree,Province du Limbourg,RÉGION FLAMANDE
+72041,Dilsen-Stokkem,N,Dilsen-Stokkem,Province du Limbourg,RÉGION FLAMANDE
+72037,Hamont-Achel,N,Hamont-Achel,Province du Limbourg,RÉGION FLAMANDE
+72038,Hechtel-Eksel,N,Hechtel-Eksel,Province du Limbourg,RÉGION FLAMANDE
+72039,Houthalen-Helchteren,N,Houthalen-Helchteren,Province du Limbourg,RÉGION FLAMANDE
+72018,Kinrooi,N,Kinrooi,Province du Limbourg,RÉGION FLAMANDE
+72020,Lommel,N,Lommel,Province du Limbourg,RÉGION FLAMANDE
+72021,Maaseik,N,Maaseik,Province du Limbourg,RÉGION FLAMANDE
+72042,Oudsbergen,N,Oudsbergen,Province du Limbourg,RÉGION FLAMANDE
+72030,Peer,N,Peer,Province du Limbourg,RÉGION FLAMANDE
+72043,Pelt,N,Pelt,Province du Limbourg,RÉGION FLAMANDE
+73001,Alken,N,Alken,Province du Limbourg,RÉGION FLAMANDE
+73006,Bilzen,N,Bilzen,Province du Limbourg,RÉGION FLAMANDE
+73109,Fourons,N,Voeren,Province du Limbourg,RÉGION FLAMANDE
+73022,Heers,N,Heers,Province du Limbourg,RÉGION FLAMANDE
+73028,Herstappe,N,Herstappe,Province du Limbourg,RÉGION FLAMANDE
+73032,Hoeselt,N,Hoeselt,Province du Limbourg,RÉGION FLAMANDE
+73040,Kortessem,N,Kortessem,Province du Limbourg,RÉGION FLAMANDE
+73042,Lanaken,N,Lanaken,Province du Limbourg,RÉGION FLAMANDE
+73009,Looz,N,Borgloon,Province du Limbourg,RÉGION FLAMANDE
+73107,Maasmechelen,N,Maasmechelen,Province du Limbourg,RÉGION FLAMANDE
+73066,Riemst,N,Riemst,Province du Limbourg,RÉGION FLAMANDE
+73083,Tongres,N,Tongeren,Province du Limbourg,RÉGION FLAMANDE
+73098,Wellen,N,Wellen,Province du Limbourg,RÉGION FLAMANDE
+25005,Beauvechain,F,Bevekom,Province du Brabant Wallon,RÉGION WALLONNE
+25014,Braine-l'Alleud,F,Eigenbrakel,Province du Brabant Wallon,RÉGION WALLONNE
+25015,Braine-le-Château,F,Kasteelbrakel,Province du Brabant Wallon,RÉGION WALLONNE
+25117,Chastre,F,Chastre,Province du Brabant Wallon,RÉGION WALLONNE
+25018,Chaumont-Gistoux,F,Chaumont-Gistoux,Province du Brabant Wallon,RÉGION WALLONNE
+25023,Court-Saint-Etienne,F,Court-Saint-Etienne,Province du Brabant Wallon,RÉGION WALLONNE
+25031,Genappe,F,Genepien,Province du Brabant Wallon,RÉGION WALLONNE
+25037,Grez-Doiceau,F,Graven,Province du Brabant Wallon,RÉGION WALLONNE
+25118,Hélécine,F,Hélécine,Province du Brabant Wallon,RÉGION WALLONNE
+25043,Incourt,F,Incourt,Province du Brabant Wallon,RÉGION WALLONNE
+25044,Ittre,F,Itter,Province du Brabant Wallon,RÉGION WALLONNE
+25048,Jodoigne,F,Geldenaken,Province du Brabant Wallon,RÉGION WALLONNE
+25050,La Hulpe,F,Terhulpen,Province du Brabant Wallon,RÉGION WALLONNE
+25119,Lasne,F,Lasne,Province du Brabant Wallon,RÉGION WALLONNE
+25068,Mont-Saint-Guibert,F,Mont-Saint-Guibert,Province du Brabant Wallon,RÉGION WALLONNE
+25072,Nivelles,F,Nijvel,Province du Brabant Wallon,RÉGION WALLONNE
+25120,Orp-Jauche,F,Orp-Jauche,Province du Brabant Wallon,RÉGION WALLONNE
+25121,Ottignies-Louvain-la-Neuve,F,Ottignies-Louvain-la-Neuve,Province du Brabant Wallon,RÉGION WALLONNE
+25084,Perwez,F,Perwijs,Province du Brabant Wallon,RÉGION WALLONNE
+25122,Ramillies,F,Ramillies,Province du Brabant Wallon,RÉGION WALLONNE
+25123,Rebecq,F,Rebecq,Province du Brabant Wallon,RÉGION WALLONNE
+25091,Rixensart,F,Rixensart,Province du Brabant Wallon,RÉGION WALLONNE
+25105,Tubize,F,Tubeke,Province du Brabant Wallon,RÉGION WALLONNE
+25107,Villers-la-Ville,F,Villers-la-Ville,Province du Brabant Wallon,RÉGION WALLONNE
+25124,Walhain,F,Walhain,Province du Brabant Wallon,RÉGION WALLONNE
+25110,Waterloo,F,Waterloo,Province du Brabant Wallon,RÉGION WALLONNE
+25112,Wavre,F,Waver,Province du Brabant Wallon,RÉGION WALLONNE
+51004,Ath,F,Aat,Province du Hainaut,RÉGION WALLONNE
+51008,Beloeil,F,Beloeil,Province du Hainaut,RÉGION WALLONNE
+51009,Bernissart,F,Bernissart,Province du Hainaut,RÉGION WALLONNE
+51012,Brugelette,F,Brugelette,Province du Hainaut,RÉGION WALLONNE
+51014,Chièvres,F,Chièvres,Province du Hainaut,RÉGION WALLONNE
+51017,Ellezelles,F,Elzele,Province du Hainaut,RÉGION WALLONNE
+51067,Enghien,F,Edingen,Province du Hainaut,RÉGION WALLONNE
+51019,Flobecq,F,Vloesberg,Province du Hainaut,RÉGION WALLONNE
+51065,Frasnes-lez-Anvaing,F,Frasnes-lez-Anvaing,Province du Hainaut,RÉGION WALLONNE
+51069,Lessines,F,Lessen,Province du Hainaut,RÉGION WALLONNE
+51068,Silly,F,Opzullik,Province du Hainaut,RÉGION WALLONNE
+52074,Aiseau-Presles,F,Aiseau-Presles,Province du Hainaut,RÉGION WALLONNE
+52010,Chapelle-lez-Herlaimont,F,Chapelle-lez-Herlaimont,Province du Hainaut,RÉGION WALLONNE
+52011,Charleroi,F,Charleroi,Province du Hainaut,RÉGION WALLONNE
+52012,Châtelet,F,Châtelet,Province du Hainaut,RÉGION WALLONNE
+52015,Courcelles,F,Courcelles,Province du Hainaut,RÉGION WALLONNE
+52018,Farciennes,F,Farciennes,Province du Hainaut,RÉGION WALLONNE
+52021,Fleurus,F,Fleurus,Province du Hainaut,RÉGION WALLONNE
+52022,Fontaine-l'Evêque,F,Fontaine-l'Evêque,Province du Hainaut,RÉGION WALLONNE
+52025,Gerpinnes,F,Gerpinnes,Province du Hainaut,RÉGION WALLONNE
+52075,Les Bons Villers,F,Les Bons Villers,Province du Hainaut,RÉGION WALLONNE
+52048,Montigny-le-Tilleul,F,Montigny-le-Tilleul,Province du Hainaut,RÉGION WALLONNE
+52055,Pont-à-celles,F,Pont-à-celles,Province du Hainaut,RÉGION WALLONNE
+53014,Boussu,F,Boussu,Province du Hainaut,RÉGION WALLONNE
+53082,Colfontaine,F,Colfontaine,Province du Hainaut,RÉGION WALLONNE
+53020,Dour,F,Dour,Province du Hainaut,RÉGION WALLONNE
+53028,Frameries,F,Frameries,Province du Hainaut,RÉGION WALLONNE
+53039,Hensies,F,Hensies,Province du Hainaut,RÉGION WALLONNE
+53083,Honnelles,F,Honnelles,Province du Hainaut,RÉGION WALLONNE
+53044,Jurbise,F,Jurbeke,Province du Hainaut,RÉGION WALLONNE
+53046,Lens,F,Lens,Province du Hainaut,RÉGION WALLONNE
+53053,Mons,F,Bergen,Province du Hainaut,RÉGION WALLONNE
+53065,Quaregnon,F,Quaregnon,Province du Hainaut,RÉGION WALLONNE
+53084,Quévy,F,Quévy,Province du Hainaut,RÉGION WALLONNE
+53068,Quiévrain,F,Quiévrain,Province du Hainaut,RÉGION WALLONNE
+53070,Saint-Ghislain,F,Saint-Ghislain,Province du Hainaut,RÉGION WALLONNE
+55004,Braine-le-Comte,F,'s Gravenbrakel,Province du Hainaut,RÉGION WALLONNE
+55050,Ecaussinnes,F,Ecaussinnes,Province du Hainaut,RÉGION WALLONNE
+55035,Le Roeulx,F,Le Roeulx,Province du Hainaut,RÉGION WALLONNE
+55086,Manage,F,Manage,Province du Hainaut,RÉGION WALLONNE
+55085,Seneffe,F,Seneffe,Province du Hainaut,RÉGION WALLONNE
+55040,Soignies,F,Zinnik,Province du Hainaut,RÉGION WALLONNE
+56001,Anderlues,F,Anderlues,Province du Hainaut,RÉGION WALLONNE
+56005,Beaumont,F,Beaumont,Province du Hainaut,RÉGION WALLONNE
+56016,Chimay,F,Chimay,Province du Hainaut,RÉGION WALLONNE
+56022,Erquelinnes,F,Erquelinnes,Province du Hainaut,RÉGION WALLONNE
+56029,Froidchapelle,F,Froidchapelle,Province du Hainaut,RÉGION WALLONNE
+56086,Ham-sur-Heure-Nalinnes,F,Ham-sur-Heure-Nalinnes,Province du Hainaut,RÉGION WALLONNE
+56044,Lobbes,F,Lobbes,Province du Hainaut,RÉGION WALLONNE
+56049,Merbes-le-Château,F,Merbes-le-Château,Province du Hainaut,RÉGION WALLONNE
+56051,Momignies,F,Momignies,Province du Hainaut,RÉGION WALLONNE
+56088,Sivry-Rance,F,Sivry-Rance,Province du Hainaut,RÉGION WALLONNE
+56078,Thuin,F,Thuin,Province du Hainaut,RÉGION WALLONNE
+57003,Antoing,F,Antoing,Province du Hainaut,RÉGION WALLONNE
+57093,Brunehaut,F,Brunehaut,Province du Hainaut,RÉGION WALLONNE
+57018,Celles,F,Celles,Province du Hainaut,RÉGION WALLONNE
+57097,Comines-Warneton,F,Komen-Waasten,Province du Hainaut,RÉGION WALLONNE
+57027,Estaimpuis,F,Estaimpuis,Province du Hainaut,RÉGION WALLONNE
+57094,Leuze-en-Hainaut,F,Leuze-en-Hainaut,Province du Hainaut,RÉGION WALLONNE
+57095,Mont-de-l'Enclus,F,Mont-de-l'Enclus,Province du Hainaut,RÉGION WALLONNE
+57096,Mouscron,F,Moeskroen,Province du Hainaut,RÉGION WALLONNE
+57062,Pecq,F,Pecq,Province du Hainaut,RÉGION WALLONNE
+57064,Péruwelz,F,Péruwelz,Province du Hainaut,RÉGION WALLONNE
+57072,Rumes,F,Rumes,Province du Hainaut,RÉGION WALLONNE
+57081,Tournai,F,Doornik,Province du Hainaut,RÉGION WALLONNE
+58001,La Louvière,F,La Louvière,Province du Hainaut,RÉGION WALLONNE
+58002,Binche,F,Binche,Province du Hainaut,RÉGION WALLONNE
+58003,Estinnes,F,Estinnes,Province du Hainaut,RÉGION WALLONNE
+58004,Morlanwelz,F,Morlanwelz,Province du Hainaut,RÉGION WALLONNE
+61003,Amay,F,Amay,Province de Liège,RÉGION WALLONNE
+61079,Anthisnes,F,Anthisnes,Province de Liège,RÉGION WALLONNE
+61010,Burdinne,F,Burdinne,Province de Liège,RÉGION WALLONNE
+61012,Clavier,F,Clavier,Province de Liège,RÉGION WALLONNE
+61080,Engis,F,Engis,Province de Liège,RÉGION WALLONNE
+61019,Ferrières,F,Ferrières,Province de Liège,RÉGION WALLONNE
+61024,Hamoir,F,Hamoir,Province de Liège,RÉGION WALLONNE
+61028,Héron,F,Héron,Province de Liège,RÉGION WALLONNE
+61031,Huy,F,Hoei,Province de Liège,RÉGION WALLONNE
+61039,Marchin,F,Marchin,Province de Liège,RÉGION WALLONNE
+61041,Modave,F,Modave,Province de Liège,RÉGION WALLONNE
+61043,Nandrin,F,Nandrin,Province de Liège,RÉGION WALLONNE
+61048,Ouffet,F,Ouffet,Province de Liège,RÉGION WALLONNE
+61081,Tinlot,F,Tinlot,Province de Liège,RÉGION WALLONNE
+61063,Verlaine,F,Verlaine,Province de Liège,RÉGION WALLONNE
+61068,Villers-le-Bouillet,F,Villers-le-Bouillet,Province de Liège,RÉGION WALLONNE
+61072,Wanze,F,Wanze,Province de Liège,RÉGION WALLONNE
+62003,Ans,F,Ans,Province de Liège,RÉGION WALLONNE
+62006,Awans,F,Awans,Province de Liège,RÉGION WALLONNE
+62009,Aywaille,F,Aywaille,Province de Liège,RÉGION WALLONNE
+62011,Bassenge,F,Bitsingen,Province de Liège,RÉGION WALLONNE
+62015,Beyne-Heusay,F,Beyne-Heusay,Province de Liège,RÉGION WALLONNE
+62119,Blégny,F,Blégny,Province de Liège,RÉGION WALLONNE
+62022,Chaudfontaine,F,Chaudfontaine,Province de Liège,RÉGION WALLONNE
+62026,Comblain-au-Pont,F,Comblain-au-Pont,Province de Liège,RÉGION WALLONNE
+62027,Dalhem,F,Dalhem,Province de Liège,RÉGION WALLONNE
+62032,Esneux,F,Esneux,Province de Liège,RÉGION WALLONNE
+62120,Flémalle,F,Flémalle,Province de Liège,RÉGION WALLONNE
+62038,Fléron,F,Fléron,Province de Liège,RÉGION WALLONNE
+62118,Grâce-Hollogne,F,Grâce-Hollogne,Province de Liège,RÉGION WALLONNE
+62051,Herstal,F,Herstal,Province de Liège,RÉGION WALLONNE
+62060,Juprelle,F,Juprelle,Province de Liège,RÉGION WALLONNE
+62063,Liège,F,Luik,Province de Liège,RÉGION WALLONNE
+62121,Neupré,F,Neupré,Province de Liège,RÉGION WALLONNE
+62079,Oupeye,F,Oupeye,Province de Liège,RÉGION WALLONNE
+62093,Saint-Nicolas,F,Saint-Nicolas,Province de Liège,RÉGION WALLONNE
+62096,Seraing,F,Seraing,Province de Liège,RÉGION WALLONNE
+62099,Soumagne,F,Soumagne,Province de Liège,RÉGION WALLONNE
+62100,Sprimont,F,Sprimont,Province de Liège,RÉGION WALLONNE
+62122,Trooz,F,Trooz,Province de Liège,RÉGION WALLONNE
+62108,Visé,F,Wezet,Province de Liège,RÉGION WALLONNE
+63001,Amblève,D,Amel,Province de Liège,RÉGION WALLONNE
+63003,Aubel,F,Aubel,Province de Liège,RÉGION WALLONNE
+63004,Baelen,F,Baelen,Province de Liège,RÉGION WALLONNE
+63012,Bullange,D,Büllingen,Province de Liège,RÉGION WALLONNE
+63087,Burg-Reuland,D,Burg-Reuland,Province de Liège,RÉGION WALLONNE
+63013,Butgenbach,D,Bütgenbach,Province de Liège,RÉGION WALLONNE
+63020,Dison,F,Dison,Province de Liège,RÉGION WALLONNE
+63023,Eupen,D,Eupen,Province de Liège,RÉGION WALLONNE
+63035,Herve,F,Herve,Province de Liège,RÉGION WALLONNE
+63038,Jalhay,F,Jalhay,Province de Liège,RÉGION WALLONNE
+63040,La Calamine,D,Kelmis,Province de Liège,RÉGION WALLONNE
+63045,Lierneux,F,Lierneux,Province de Liège,RÉGION WALLONNE
+63046,Limbourg,F,Limburg,Province de Liège,RÉGION WALLONNE
+63048,Lontzen,D,Lontzen,Province de Liège,RÉGION WALLONNE
+63049,Malmedy,F,Malmedy,Province de Liège,RÉGION WALLONNE
+63057,Olne,F,Olne,Province de Liège,RÉGION WALLONNE
+63058,Pepinster,F,Pepinster,Province de Liège,RÉGION WALLONNE
+63088,Plombières,F,Plombières,Province de Liège,RÉGION WALLONNE
+63061,Raeren,D,Raeren,Province de Liège,RÉGION WALLONNE
+63067,Saint-Vith,D,Sankt Vith,Province de Liège,RÉGION WALLONNE
+63072,Spa,F,Spa,Province de Liège,RÉGION WALLONNE
+63073,Stavelot,F,Stavelot,Province de Liège,RÉGION WALLONNE
+63075,Stoumont,F,Stoumont,Province de Liège,RÉGION WALLONNE
+63076,Theux,F,Theux,Province de Liège,RÉGION WALLONNE
+63089,Thimister-Clermont,F,Thimister-Clermont,Province de Liège,RÉGION WALLONNE
+63086,Trois-Ponts,F,Trois-Ponts,Province de Liège,RÉGION WALLONNE
+63079,Verviers,F,Verviers,Province de Liège,RÉGION WALLONNE
+63080,Waimes,F,Weismes,Province de Liège,RÉGION WALLONNE
+63084,Welkenraedt,F,Welkenraedt,Province de Liège,RÉGION WALLONNE
+64008,Berloz,F,Berloz,Province de Liège,RÉGION WALLONNE
+64015,Braives,F,Braives,Province de Liège,RÉGION WALLONNE
+64021,Crisnée,F,Crisnée,Province de Liège,RÉGION WALLONNE
+64023,Donceel,F,Donceel,Province de Liège,RÉGION WALLONNE
+64076,Faimes,F,Faimes,Province de Liège,RÉGION WALLONNE
+64025,Fexhe-le-Haut-Clocher,F,Fexhe-le-Haut-Clocher,Province de Liège,RÉGION WALLONNE
+64029,Geer,F,Geer,Province de Liège,RÉGION WALLONNE
+64034,Hannut,F,Hannuit,Province de Liège,RÉGION WALLONNE
+64047,Lincent,F,Lijsem,Province de Liège,RÉGION WALLONNE
+64056,Oreye,F,Oerle,Province de Liège,RÉGION WALLONNE
+64063,Remicourt,F,Remicourt,Province de Liège,RÉGION WALLONNE
+64065,Saint-Georges-sur-Meuse,F,Saint-Georges-sur-Meuse,Province de Liège,RÉGION WALLONNE
+64074,Waremme,F,Borgworm,Province de Liège,RÉGION WALLONNE
+64075,Wasseiges,F,Wasseiges,Province de Liège,RÉGION WALLONNE
+81001,Arlon,F,Aarlen,Province du Luxembourg,RÉGION WALLONNE
+81003,Attert,F,Attert,Province du Luxembourg,RÉGION WALLONNE
+81004,Aubange,F,Aubange,Province du Luxembourg,RÉGION WALLONNE
+81013,Martelange,F,Martelange,Province du Luxembourg,RÉGION WALLONNE
+81015,Messancy,F,Messancy,Province du Luxembourg,RÉGION WALLONNE
+82003,Bastogne,F,Bastenaken,Province du Luxembourg,RÉGION WALLONNE
+82005,Bertogne,F,Bertogne,Province du Luxembourg,RÉGION WALLONNE
+82009,Fauvillers,F,Fauvillers,Province du Luxembourg,RÉGION WALLONNE
+82037,Gouvy,F,Gouvy,Province du Luxembourg,RÉGION WALLONNE
+82014,Houffalize,F,Houffalize,Province du Luxembourg,RÉGION WALLONNE
+82038,Sainte-Ode,F,Sainte-Ode,Province du Luxembourg,RÉGION WALLONNE
+82036,Vaux-sur-Sûre,F,Vaux-sur-Sûre,Province du Luxembourg,RÉGION WALLONNE
+82032,Vielsalm,F,Vielsalm,Province du Luxembourg,RÉGION WALLONNE
+83012,Durbuy,F,Durbuy,Province du Luxembourg,RÉGION WALLONNE
+83013,Erezée,F,Erezée,Province du Luxembourg,RÉGION WALLONNE
+83028,Hotton,F,Hotton,Province du Luxembourg,RÉGION WALLONNE
+83031,La Roche-en-Ardenne,F,La Roche-en-Ardenne,Province du Luxembourg,RÉGION WALLONNE
+83055,Manhay,F,Manhay,Province du Luxembourg,RÉGION WALLONNE
+83034,Marche-en-Famenne,F,Marche-en-Famenne,Province du Luxembourg,RÉGION WALLONNE
+83040,Nassogne,F,Nassogne,Province du Luxembourg,RÉGION WALLONNE
+83044,Rendeux,F,Rendeux,Province du Luxembourg,RÉGION WALLONNE
+83049,Tenneville,F,Tenneville,Province du Luxembourg,RÉGION WALLONNE
+84009,Bertrix,F,Bertrix,Province du Luxembourg,RÉGION WALLONNE
+84010,Bouillon,F,Bouillon,Province du Luxembourg,RÉGION WALLONNE
+84016,Daverdisse,F,Daverdisse,Province du Luxembourg,RÉGION WALLONNE
+84029,Herbeumont,F,Herbeumont,Province du Luxembourg,RÉGION WALLONNE
+84033,Léglise,F,Léglise,Province du Luxembourg,RÉGION WALLONNE
+84035,Libin,F,Libin,Province du Luxembourg,RÉGION WALLONNE
+84077,Libramont-Chevigny,F,Libramont-Chevigny,Province du Luxembourg,RÉGION WALLONNE
+84043,Neufchâteau,F,Neufchâteau,Province du Luxembourg,RÉGION WALLONNE
+84050,Paliseul,F,Paliseul,Province du Luxembourg,RÉGION WALLONNE
+84059,Saint-Hubert,F,Saint-Hubert,Province du Luxembourg,RÉGION WALLONNE
+84068,Tellin,F,Tellin,Province du Luxembourg,RÉGION WALLONNE
+84075,Wellin,F,Wellin,Province du Luxembourg,RÉGION WALLONNE
+85007,Chiny,F,Chiny,Province du Luxembourg,RÉGION WALLONNE
+85009,Etalle,F,Etalle,Province du Luxembourg,RÉGION WALLONNE
+85011,Florenville,F,Florenville,Province du Luxembourg,RÉGION WALLONNE
+85046,Habay,F,Habay,Province du Luxembourg,RÉGION WALLONNE
+85024,Meix-devant-Virton,F,Meix-devant-Virton,Province du Luxembourg,RÉGION WALLONNE
+85026,Musson,F,Musson,Province du Luxembourg,RÉGION WALLONNE
+85047,Rouvroy,F,Rouvroy,Province du Luxembourg,RÉGION WALLONNE
+85034,Saint-Léger,F,Saint-Léger,Province du Luxembourg,RÉGION WALLONNE
+85039,Tintigny,F,Tintigny,Province du Luxembourg,RÉGION WALLONNE
+85045,Virton,F,Virton,Province du Luxembourg,RÉGION WALLONNE
+91005,Anhée,F,Anhée,Province de Namur,RÉGION WALLONNE
+91013,Beauraing,F,Beauraing,Province de Namur,RÉGION WALLONNE
+91015,Bièvre,F,Bièvre,Province de Namur,RÉGION WALLONNE
+91030,Ciney,F,Ciney,Province de Namur,RÉGION WALLONNE
+91034,Dinant,F,Dinant,Province de Namur,RÉGION WALLONNE
+91054,Gedinne,F,Gedinne,Province de Namur,RÉGION WALLONNE
+91059,Hamois,F,Hamois,Province de Namur,RÉGION WALLONNE
+91142,Hastière,F,Hastière,Province de Namur,RÉGION WALLONNE
+91064,Havelange,F,Havelange,Province de Namur,RÉGION WALLONNE
+91072,Houyet,F,Houyet,Province de Namur,RÉGION WALLONNE
+91103,Onhaye,F,Onhaye,Province de Namur,RÉGION WALLONNE
+91114,Rochefort,F,Rochefort,Province de Namur,RÉGION WALLONNE
+91120,Somme-Leuze,F,Somme-Leuze,Province de Namur,RÉGION WALLONNE
+91143,Vresse-sur-Semois,F,Vresse-sur-Semois,Province de Namur,RÉGION WALLONNE
+91141,Yvoir,F,Yvoir,Province de Namur,RÉGION WALLONNE
+92003,Andenne,F,Andenne,Province de Namur,RÉGION WALLONNE
+92006,Assesse,F,Assesse,Province de Namur,RÉGION WALLONNE
+92035,Eghezée,F,Eghezée,Province de Namur,RÉGION WALLONNE
+92138,Fernelmont,F,Fernelmont,Province de Namur,RÉGION WALLONNE
+92045,Floreffe,F,Floreffe,Province de Namur,RÉGION WALLONNE
+92048,Fosses-la-Ville,F,Fosses-la-Ville,Province de Namur,RÉGION WALLONNE
+92142,Gembloux,F,Gembloux,Province de Namur,RÉGION WALLONNE
+92054,Gesves,F,Gesves,Province de Namur,RÉGION WALLONNE
+92140,Jemeppe-sur-Sambre,F,Jemeppe-sur-Sambre,Province de Namur,RÉGION WALLONNE
+92141,La Bruyère,F,La Bruyère,Province de Namur,RÉGION WALLONNE
+92087,Mettet,F,Mettet,Province de Namur,RÉGION WALLONNE
+92094,Namur,F,Namen,Province de Namur,RÉGION WALLONNE
+92097,Ohey,F,Ohey,Province de Namur,RÉGION WALLONNE
+92101,Profondeville,F,Profondeville,Province de Namur,RÉGION WALLONNE
+92137,Sambreville,F,Sambreville,Province de Namur,RÉGION WALLONNE
+92114,Sombreffe,F,Sombreffe,Province de Namur,RÉGION WALLONNE
+93010,Cerfontaine,F,Cerfontaine,Province de Namur,RÉGION WALLONNE
+93014,Couvin,F,Couvin,Province de Namur,RÉGION WALLONNE
+93018,Doische,F,Doische,Province de Namur,RÉGION WALLONNE
+93022,Florennes,F,Florennes,Province de Namur,RÉGION WALLONNE
+93056,Philippeville,F,Philippeville,Province de Namur,RÉGION WALLONNE
+93090,Viroinval,F,Viroinval,Province de Namur,RÉGION WALLONNE
+93088,Walcourt,F,Walcourt,Province de Namur,RÉGION WALLONNE
