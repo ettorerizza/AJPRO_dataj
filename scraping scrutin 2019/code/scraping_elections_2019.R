@@ -4,6 +4,13 @@ start_time <- Sys.time()
 library(rvest) #le package de scraping
 library(tidyverse) #contient tout ce qu'il faut pour lire et manipuler les données
 
+#Plutôt que de scraper les liens vers les résultats, j'ai reconstruit leurs URLs en 
+#utilisant le code INS de la commune. 
+#Pour scraper les régionales, il faudra changer la variable url_base_chambre_communes 
+#en "https://elections2019.belgium.be/fr/resultats-chiffres?el=VL&id=VLX" (pour la Flandre) 
+#ou "https://elections2019.belgium.be/fr/resultats-chiffres?el=WL&id=WLX" (Wallonie) 
+#ou "https://elections2019.belgium.be/fr/resultats-chiffres?el=BR&id=BRX" (BXL).
+
 #Url de base pour les élections fédérales par commune
 url_base_chambre_communes <-
   "https://elections2019.belgium.be/fr/resultats-chiffres?el=CK&id=CKX"
@@ -41,19 +48,16 @@ for (url in liste_communes) {
   tables = rbind(tables, table)
 }
 
-#on nettoye un peu lignes et colonnes superflues (pourrait se faire dans OpenRefine)
-#tables = tables %>% drop_na(X2) %>% select(X2:X10, commune:lien)
-
 #On renomme les colonnes
 colnames(tables) = c(
   "numero",
   "liste",
   "colonne_vide",
-  "Resultat_2019",
-  "Resultat_2014",
+  "resultat_2019",
+  "resultat_2014",
   "pourcent_2019",
   "pourcent_2014",
-  "evolution en %",
+  "evolution_en_pourcent",
   "commune",
   "lien",
   "INS"
@@ -66,18 +70,17 @@ View(tables)
 #On supprime la colonne vide
 tables <- tables %>% select(-colonne_vide)
 
-#On met les poucentages sous forme de nombres pour calculs ultérieurs ?
-#tables$pourcent_2019 = as.numeric(gsub("^([0-9]+),?([0-9]+)?%", "\\1.\\2", tables$pourcent_2019))
-#tables$pourcent_2014 = as.numeric(gsub("^([0-9]+),?([0-9]+)?%", "\\1.\\2", tables$pourcent_2014))
-
 #On fusionne avec le fichier d'origine de Statbel, ce qui permettra de trier par région, par province ou par langue
 tables <- left_join(tables, communes, by = "INS")
 
 #Dernier coup d'oeil au tableau
 View(tables)
 
+#On sauvegarde les variables
+save.image("data.RData")
+
 #On sauvegarde dans un fichier csv
-write_csv(tables, "scraping_communes_federales_2019.csv")
+write_csv(tables, "scraping_communes_federales_2019_original.csv")
 
 # Stop the clock : affichera dans la console le temps d'execution du script
 #(Moins de 5 minutes normalement pour les élections fédérales)
